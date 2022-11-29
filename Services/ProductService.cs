@@ -1,4 +1,5 @@
 ﻿using BlazorShopping.Models;
+using System.Collections.Immutable;
 
 namespace BlazorShopping.Services
 {
@@ -6,12 +7,26 @@ namespace BlazorShopping.Services
     {
         public static readonly List<Product> Products = new List<Product>()
         {
-            new()
+            new Product()
             {
                 Id = 1,
-                Name = "P1",
-                Description = "Example Product",
-                Price = 70
+                Name = "Product 1",
+                Description = "Test Decription 1",
+                Price = 10
+            },
+            new Product()
+            {
+                Id = 2,
+                Name = "Product 2",
+                Description = "Test Description 2",
+                Price = 20
+            },
+            new Product()
+            {
+                Id = 3,
+                Name = "Product 3",
+                Description = "Test Description 3",
+                Price = 30
             }
         };
     }
