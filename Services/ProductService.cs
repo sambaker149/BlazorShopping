@@ -10,23 +10,23 @@ namespace BlazorShopping.Services
             new Product()
             {
                 Id = 1,
-                Name = "Product 1",
-                Description = "Test Description 1",
-                Price = 10
+                Name = "Handball Spezial",
+                Description = "Pantone, Collegiate Navy, Gum",
+                Price = 80
             },
             new Product()
             {
                 Id = 2,
-                Name = "Product 2",
-                Description = "Test Description 2",
-                Price = 20
+                Name = "Galaxy 6",
+                Description = "Core Black, Cloud White, Core Black",
+                Price = 45
             },
-            new()
+            new Product()
             {
                 Id = 3,
-                Name = "Product 3",
-                Description = "Test Description 3",
-                Price = 30
+                Name = "Terrex Swift R3 Gore-Tex Hiking",
+                Description = "Core Black, Core Black, Grey Six",
+                Price = 140
             }
         };
     }

@@ -6,6 +6,11 @@ namespace BlazorShopping.Services
     {
         public static List<ShoppingItem> SelectedItems { get; set; } = new List<ShoppingItem>();
 
+        public static void RemoveFromBasket(int productId)
+        {
+            SelectedItems.RemoveAll(x => x.Id == productId);
+        }
+
         public void AddToBasket(int productId)
         {
             if (ProductInBasket(productId) is false)

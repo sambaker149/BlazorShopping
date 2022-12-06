@@ -1,15 +1,13 @@
 ﻿@page "/BasketView"
-
-@* UI Section *@
 @inject BasketService BasketService
 
-<h1>Shopping Basket</h1>
-<h3>You have @BasketService.SelectedItems.Count items in your Basket</h3>
+@* UI Section *@
+<h1>Shopping Cart</h1>
 
 <ShoppingBasketList Items="BasketService.SelectedItems"></ShoppingBasketList>
 
 @* Code Section *@
 @code 
 {
-
+    private int itemCount = 0;
 }
