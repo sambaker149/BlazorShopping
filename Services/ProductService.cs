@@ -11,7 +11,7 @@ namespace BlazorShopping.Services
             {
                 Id = 1,
                 Name = "Product 1",
-                Description = "Test Decription 1",
+                Description = "Test Description 1",
                 Price = 10
             },
             new Product()
@@ -21,7 +21,7 @@ namespace BlazorShopping.Services
                 Description = "Test Description 2",
                 Price = 20
             },
-            new Product()
+            new()
             {
                 Id = 3,
                 Name = "Product 3",
